@@ -10,8 +10,7 @@ const client = new Client({
 });
 
 // Your Discord bot token (keep this private)
-const token =
-  "MTEzMzgwNzI2MDg0NjUyNjU1Nw.Gi2FGU.MXOTw-z9ANEZkhU9vr5nblNQTzIj9-55mjPUFc";
+const token = process.env.TOKEN;
 
 // Event that indicates the bot is ready and connected to Discord
 client.on("ready", () => {
